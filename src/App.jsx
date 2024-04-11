@@ -1,14 +1,14 @@
 import { useState } from 'react'
-const tg = window.Telegram.WebApp;
+const tg = window.Telegram.WebApp
 import './App.css'
 
 function App() {
-	const onClose = () =>{
-		tg.close;
+	const onClose = () => {
+		tg.close
 	}
 	return (
 		<>
-			<button>Закрыть</button>
+			<button onClick={onClose}>Закрыть</button>
 		</>
 	)
 }
