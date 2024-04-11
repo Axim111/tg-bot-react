@@ -4,7 +4,7 @@ import './App.css'
 
 function App() {
 	const onClose = () => {
-		tg.close
+		tg.close()
 	}
 	return (
 		<>
